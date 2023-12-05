@@ -295,9 +295,11 @@ header
   position: relative;
 }
 .logo-place{
-  position: absolute;
-  top: 15px;
-  left: 0px;
+  float: left;
+  margin-right: 0px;
+  margin-top: 15px;
+  width: 46px;
+  height: 46px;
 
 }
 
@@ -748,13 +750,7 @@ header
     display: flex !important;
   }
 }
-.subscribe-content{
-  position: relative;
-}
-.col-md-4_col-sm-12{
-  position: absolute;
-  left:39%;
-}
+
 
 /* 
 ---------------------------------------------
@@ -898,9 +894,9 @@ ul.slick-dots {
 
 .Modern-Slider .item h5 {
   margin-bottom: 0px;
-  font-size: 36px;
+  font-size: 25px;
   font-weight: 200;
-  letter-spacing: 2.5px;
+  letter-spacing: 1.5px;
   color:#FFF;
   overflow:hidden;
   animation:fadeOutLeft 1s both;
@@ -1052,7 +1048,7 @@ subscribe
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  
+
 }
 
 #subscribe .section-heading {
