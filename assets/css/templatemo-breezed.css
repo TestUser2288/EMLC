@@ -1661,3 +1661,7 @@ portfolio
     margin-bottom: 0px;
   }
 }
+.section {
+  position: relative;
+  z-index: 1;
+}
